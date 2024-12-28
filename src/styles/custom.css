@@ -1,0 +1,190 @@
+/* Child-friendly color scheme */
+:root {
+    --baby-blue: #89CFF0;
+    --soft-pink: #FFB6C1;
+    --light-yellow: #FFFACD;
+    --mint-green: #98FF98;
+}
+
+/* Video container styling */
+.video-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Caption editor styling */
+.caption-editor {
+    background-color: var(--bs-dark);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.caption-text {
+    font-size: 1.1rem;
+    resize: vertical;
+}
+
+/* Custom button styles */
+.btn-primary {
+    background-color: var(--baby-blue);
+    border-color: var(--baby-blue);
+}
+
+.btn-success {
+    background-color: var(--mint-green);
+    border-color: var(--mint-green);
+    color: var(--bs-dark);
+}
+
+/* Card styling */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background-color: rgba(var(--bs-dark-rgb), 0.03);
+    border-bottom: 1px solid rgba(var(--bs-dark-rgb), 0.125);
+}
+
+/* List group item styling */
+.list-group-item {
+    background-color: rgba(var(--bs-dark-rgb), 0.02);
+    border: 1px solid rgba(var(--bs-dark-rgb), 0.125);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .video-container {
+        padding: 0.5rem;
+    }
+} 
+
+/* Add these styles to your existing custom.css */
+
+.insights-chart {
+  padding: 20px;
+  height: 400px;
+}
+
+.chart-container {
+  height: 300px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.chart-bars {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.bar {
+  width: 30px;
+  position: relative;
+  transition: height 0.3s ease;
+  margin: 0 5px;
+}
+
+.accuracy-bar {
+  background-color: var(--baby-blue);
+}
+
+.words-bar {
+  background-color: var(--soft-pink);
+}
+
+.bar-value {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.bar-label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.accuracy-color {
+  background-color: var(--baby-blue);
+}
+
+.words-color {
+  background-color: var(--soft-pink);
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: var(--baby-blue) !important;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu {
+  background-color: var(--bs-dark);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--baby-blue);
+}
+
+/* Active nav item */
+.nav-link.active {
+  background-color: var(--baby-blue);
+  color: var(--bs-dark) !important;
+} 
