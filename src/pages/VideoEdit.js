@@ -9,7 +9,6 @@ const VideoEdit = () => {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <VideoEditor videoId={videoId} />
         </div>
       </div>
     </div>
