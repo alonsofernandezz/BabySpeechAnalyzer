@@ -18,13 +18,6 @@ const Settings = () => {
   });
   const [saving, setSaving] = useState(false);
 
-  const handleToggle = (key) => {
-    setSettings(prev => ({
-      ...prev,
-      [key]: !prev[key]
-    }));
-  };
-
   const handleExport = async () => {
     try {
       const response = await axios.post('/api/video/export-all', {
