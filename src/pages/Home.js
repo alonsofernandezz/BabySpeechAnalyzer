@@ -181,9 +181,6 @@ const Home = () => {
               <h3 className="mb-4">Start Understanding Your Baby Today</h3>
               <p className="lead mb-4">Join other parents in capturing and understanding your baby's developmental journey</p>
               {!user ? (
-                <Link to="/register" className="btn btn-light btn-lg">
-                  Create Free Account
-                </Link>
               ) : (
                 <Link to="/upload" className="btn btn-light btn-lg">
                   Start Uploading
