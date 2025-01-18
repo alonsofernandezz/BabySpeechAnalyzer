@@ -180,12 +180,6 @@ const Home = () => {
             <div className="card-body p-4 text-center">
               <h3 className="mb-4">Start Understanding Your Baby Today</h3>
               <p className="lead mb-4">Join other parents in capturing and understanding your baby's developmental journey</p>
-              {!user ? (
-              ) : (
-                <Link to="/upload" className="btn btn-light btn-lg">
-                  Start Uploading
-                </Link>
-              )}
             </div>
           </div>
         </div>
