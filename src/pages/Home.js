@@ -174,16 +174,6 @@ const Home = () => {
       </div>
 
       {/* Call to Action Section */}
-      <div className="row mb-5">
-        <div className="col-12">
-          <div className="card bg-primary text-white">
-            <div className="card-body p-4 text-center">
-              <h3 className="mb-4">Start Understanding Your Baby Today</h3>
-              <p className="lead mb-4">Join other parents in capturing and understanding your baby's developmental journey</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
