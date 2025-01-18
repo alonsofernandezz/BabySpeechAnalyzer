@@ -9,16 +9,6 @@ const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await login(username, password);
-      navigate('/');
-    } catch (err) {
-      setError(err.response?.data?.message || 'Failed to login');
-    }
-  };
-
   return (
     <div className="row justify-content-center">
       <div className="col-md-6">
