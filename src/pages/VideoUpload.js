@@ -9,13 +9,6 @@ import {
   faSpinner
 } from '@fortawesome/free-solid-svg-icons';
 
-const VideoUpload = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [videos, setVideos] = useState([]);
-  const [uploading, setUploading] = useState(false);
-  const [mode, setMode] = useState(null); // 'learning' or 'predictive'
-  const navigate = useNavigate();
-
   useEffect(() => {
     const fetchVideos = async () => {
       try {
