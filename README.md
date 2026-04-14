@@ -24,3 +24,11 @@ The script is intended for engineers and researchers working on infant audio ana
 - Extracts relevant temporal and spectral features
 - Produces structured output for review or model training
 - Easy to extend for custom classifiers or research workflows
+
+## Typical Use Cases
+
+- Infant cry or vocalization detection
+- Early-stage baby sound classification
+- Audio dataset preprocessing for ML pipelines
+- Feature extraction for developmental speech studies
+- Prototype validation for baby-monitoring devices
