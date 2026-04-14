@@ -15,3 +15,12 @@ Baby Speech Analysis provides a structured workflow for:
 - generating analysis outputs for downstream review
 
 The script is intended for engineers and researchers working on infant audio analysis, cry detection, vocalization monitoring, developmental studies, or smart baby-monitoring systems.
+
+## Key Capabilities
+
+- Supports offline analysis of recorded audio files
+- Preprocesses audio for more stable feature extraction
+- Detects speech-like or cry-like vocal segments
+- Extracts relevant temporal and spectral features
+- Produces structured output for review or model training
+- Easy to extend for custom classifiers or research workflows
