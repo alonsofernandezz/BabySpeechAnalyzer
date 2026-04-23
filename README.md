@@ -10,7 +10,6 @@ Baby Speech Analysis provides a structured workflow for:
 - loading raw baby audio recordings
 - cleaning and normalizing signal input
 - segmenting vocal events
-- classifying or scoring vocal patterns
 
 
 
