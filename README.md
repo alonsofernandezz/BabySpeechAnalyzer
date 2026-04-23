@@ -5,11 +5,6 @@ This project is designed for research, prototyping, and early-stage product deve
 
 ## Overview
 
-Baby Speech Analysis provides a structured workflow for:
-
-- loading raw baby audio recordings
-- cleaning and normalizing signal input
-- segmenting vocal events
 
 
 
