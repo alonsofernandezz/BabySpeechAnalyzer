@@ -35,12 +35,4 @@ The script is intended for engineers and researchers working on infant audio ana
 
 ## Project Structure
 
-```text
-baby-speech-analysis/
-├─ main.py                  # Main entry point
-├─ requirements.txt         # Python dependencies
-├─ input/                   # Input audio samples
-├─ output/                  # Generated results, logs, reports
-├─ models/                  # Optional trained models
-├─ utils/                   # Helper functions
-└─ README.md                # Project documentation
+
