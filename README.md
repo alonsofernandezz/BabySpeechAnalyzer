@@ -12,7 +12,6 @@ Baby Speech Analysis provides a structured workflow for:
 - segmenting vocal events
 - extracting acoustic features
 - classifying or scoring vocal patterns
-- generating analysis outputs for downstream review
 
 
 
